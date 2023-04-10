@@ -1,0 +1,401 @@
+body{
+    background-color: #121212;
+}
+
+.banner{
+    height: 40vh;
+    background-color: #121212;
+    position: relative;
+    
+}
+
+.banner-image{
+    height: 40vh;
+    width: 100vw;
+    object-fit: cover;
+    opacity: 0.2;
+}
+
+.banner-text{
+    color: whitesmoke;
+    font-family: "Poppins";
+    height: 40vh;
+    position: absolute;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    align-items: center;
+    justify-content: center;
+    gap: 1.4rem;
+
+  
+}
+
+.banner-text h1{
+    font-size: 3rem;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 300;
+}
+
+.banner-line{
+    width: 20rem;
+    border-bottom: 1px solid white;
+}
+
+.banner-text-p{
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    gap: 1rem;
+    font-size: 1.2rem;
+}
+
+.banner-my-image{
+    position: absolute;
+    top: 20rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.banner-my-image img{
+    border-radius: 50%;
+    height: 25vh;
+    transition: all 0.5s ease;
+    opacity: 0.9;
+}
+
+.banner-my-image img:hover{
+    transform: scale(1.05);
+}
+
+
+
+.links{
+    position: absolute;
+    color: white;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24rem;
+    top: 27rem;
+}
+
+.links-span1{
+    display: flex;
+    gap: 3rem;
+}
+
+.links-span2{
+    display: flex;
+    gap: 3rem;
+}
+
+.links span{
+    font-family: "Poppins";
+
+}
+
+.links span:hover{
+    color: rgb(93, 180, 252);
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+
+
+
+.about{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16rem;
+}
+
+.about-text{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    
+}
+
+.about-text h1{
+    text-align: center;
+    margin: 2rem;
+    font-size: 2.2rem;
+    padding-bottom: 5vh;
+}
+
+
+
+
+.about-text p{
+    margin: 1rem;
+    font-size: 1.1rem;
+}
+.about-text span{
+    color: rgb(93, 180, 252);;
+}
+
+
+
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 16rem;
+}
+
+.projects-h1{
+    color: white;
+    font-family: "Poppins";
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+
+.projects-box{
+    color: whitesmoke;
+    font-family: 'Mada', sans-serif;
+    border-radius: 1rem;
+    max-height: 18rem;
+    max-width: 60rem;
+    box-shadow: 0 0 1.2px rgb(93, 180, 252);
+    background-size: 100% 100%;
+    display: flex;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.projects-box:hover{
+    transform: translateY(-10px);
+}
+
+
+
+.projects-info{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 2rem;
+}
+
+.project-technologies{
+    display: flex;
+    gap: 4px;
+}
+
+.project-technologies span{
+    background-color:rgb(93, 180, 252);
+    border-radius: 10px;
+    padding: 2px 12px;
+    color: black;
+}
+
+.projects-box img{
+    object-fit: cover;
+    max-height: 18rem;
+    max-width: 30rem;
+    border-radius: 1rem;
+}
+
+.project-links{
+    display: flex;
+    gap: 2rem;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+}
+
+.project-icons:hover{
+    cursor: pointer;
+    scale: 1.2;
+    transition: all 0.5s ease;
+    color: rgb(93, 180, 252);
+}
+
+.projects-info p{
+    font-size: 1.05rem;
+}
+
+.footer{
+    background-color: rgb(0, 0, 1);
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    height: 5vh;
+    display: flex;
+    padding: 0rem 20rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer h1{
+    font-size: 1rem;
+}
+
+.footer-links{
+    display: flex;
+    gap: 1rem;
+}
+
+.footer-links a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.footer-icon{
+    font-size: 1.2rem;
+}
+
+.footer-icon:hover{
+    cursor: pointer;
+    color: rgb(93, 180, 252);
+}
+
+.technologies{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(14vh, 1fr));
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.tech-box{
+    min-height: 14vh;
+    max-width: 14vh;
+    color: white;
+    display: flex;
+    margin: 1rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 0 1.2px rgb(93, 180, 252);
+    background-size: 100% 100%;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.tech-box:hover{
+    background-color: rgb(93, 180, 252);
+    color: black;
+    transition: all 0.2s ease-in-out;
+    
+    .tech-icon{
+        color: whitesmoke;
+    }
+    
+}
+
+.tech-icon{
+    font-size: 4rem;
+    color: rgb(151, 139, 186);
+}
+
+.technologies-header{
+    margin-bottom: 16rem;
+    h1{
+        color: white;
+        font-family: "Poppins";
+        display: flex;
+        justify-content: center;
+        margin: 2rem;
+    }
+}
+
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 10rem;
+    
+    h1{
+        font-weight: bolder;
+    }
+
+    p{
+        span{
+            color: rgb(93, 180, 252);
+        }
+    }
+
+    .contact-icons{
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        font-size: 2rem;
+
+        a{
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .contact-icon{
+            font-size: 1.4rem;
+
+            &:hover{
+                scale: 1.1;
+                color: rgb(93, 180, 252);
+                animation: all 0.3s ease-in-out;
+                cursor: pointer;
+            }
+            
+        }
+    }
+}
+ 
+@media screen and (max-width: 1000px){
+
+
+    .projects-box{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 10rem;
+        box-shadow: none;
+    }
+
+    .projects-box img{
+        display: flex;
+        flex-direction: column;;
+        object-fit: cover;
+        max-height: 18rem;
+        max-width: 30rem;
+        border-radius: 1rem;
+    }
+
+    .links{
+        top: 5rem;
+        gap: 2rem;
+    }
+    
+    .links-span1{
+        display: flex;
+        gap: 2rem;
+    }
+    
+    .links-span2{
+        display: flex;
+        gap: 2rem;
+    }
+
+    .footer{
+        padding: 0;
+        justify-content: space-around;
+    }
+}
