@@ -177,6 +177,7 @@ body{
 
 .projects-box:hover{
     transform: translateY(-10px);
+
 }
 
 
@@ -374,28 +375,38 @@ body{
         display: flex;
         flex-direction: column;;
         object-fit: cover;
-        max-height: 18rem;
-        max-width: 30rem;
+        max-height: 20rem;
+        max-width: 24rem;
         border-radius: 1rem;
     }
 
     .links{
         top: 5rem;
-        gap: 2rem;
+        gap: 1rem;
     }
     
     .links-span1{
         display: flex;
-        gap: 2rem;
+        gap: 1rem;
     }
     
     .links-span2{
         display: flex;
-        gap: 2rem;
+        gap: 1rem;
     }
 
     .footer{
         padding: 0;
         justify-content: space-around;
+    }
+
+    .technologies-header{
+        .technologies{
+            margin-left: 2rem;
+            justify-content: center;
+        }
+        h1{
+            text-align: center;
+        }
     }
 }
