@@ -2,8 +2,8 @@
 
 import React from 'react'
 import foodie from '../img/foodie.jpg'
-import pixelton from "../img/pixelton.jpg"
-import whisper from "../img/whisper.jpg"
+import pixelton from "../img/pixelton.JPG"
+import whisper from "../img/whisper.JPG"
 import staysafe from "../img/staysafe.jpg"
 import {FiGithub} from "react-icons/fi"
 import {HiOutlineExternalLink} from "react-icons/hi"
