@@ -362,6 +362,12 @@ body{
  
 @media screen and (max-width: 1000px){
 
+    .banner{
+        .banner-my-image{
+            padding-bottom: 1rem;
+        }
+    }
+
 
     .projects-box{
         flex-direction: column;
@@ -369,6 +375,10 @@ body{
         align-items: center;
         margin: 10rem;
         box-shadow: none;
+
+        .project-technologies span{
+            align-items: center;
+        }
     }
 
     .projects-box img{
@@ -381,6 +391,7 @@ body{
     }
 
     .links{
+        display: none;
         top: 5rem;
         gap: 1rem;
     }
@@ -404,6 +415,14 @@ body{
         .technologies{
             margin-left: 2rem;
             justify-content: center;
+
+            .tech-icon{
+                padding: 10px;
+            }
+
+            .tech-box{
+                padding: 10px;
+            }
         }
         h1{
             text-align: center;
