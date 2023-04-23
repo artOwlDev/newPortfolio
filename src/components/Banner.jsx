@@ -5,7 +5,7 @@ import TypewriterComponent from 'typewriter-effect'
 import image from "../img/background.jpg"
 import image2 from "../img/background2.avif"
 import image3 from "../img/background3.jpg"
-import portrait from "../img/portrait1.jpeg"
+import portrait from "../img/portrait2.jpeg"
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import {FiUser} from "react-icons/fi"
