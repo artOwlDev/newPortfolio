@@ -57,12 +57,12 @@ const Banner = () => {
 
         <div className="links">
             <div className="links-span1">
-                <span onClick={() => scrollUp(20)}> <FiUser style={{margin: "0 2px"}}/> About</span>
-                <span onClick={() => scrollUp(1050)}> <SiElectron style={{margin: "0 2px"}}/> Technologies</span>
+                <span onClick={() => scrollUp(20)}> <FiUser className='icon' style={{margin: "0 2px"}}/> About</span>
+                <span onClick={() => scrollUp(1050)}> <SiElectron className='icon' style={{margin: "0 2px"}}/> Technologies</span>
             </div>
             <div className="links-span2">
-                <span onClick={() => scrollUp(2200)}> <ImBook style={{margin: "0 2px", color: "white"}}/> Projects</span>
-                <span onClick={() => scrollUp(4500)}> <AiOutlineMail style={{margin: "0 2px"}}/> Contact</span>
+                <span onClick={() => scrollUp(2200)}> <ImBook className='icon' style={{margin: "0 2px", color: "white"}}/> Projects</span>
+                <span onClick={() => scrollUp(4500)}> <AiOutlineMail className='icon' style={{margin: "0 2px"}}/> Contact</span>
             </div>
         </div>
     </div>

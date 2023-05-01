@@ -364,7 +364,12 @@ body{
 
     .banner{
         .banner-my-image{
-            padding-bottom: 1rem;
+            position: static;
+
+            img{
+                position: static;
+                margin-top: 3rem;
+            }
         }
     }
 
@@ -385,15 +390,21 @@ body{
         display: flex;
         flex-direction: column;;
         object-fit: cover;
-        max-height: 20rem;
-        max-width: 24rem;
+        max-height: 16rem;
+        max-width: 20rem;
         border-radius: 1rem;
     }
 
     .links{
-        display: none;
-        top: 5rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        top: 2rem;
         gap: 1rem;
+
+        .icon{
+            display: none;
+        }
     }
     
     .links-span1{
@@ -413,7 +424,6 @@ body{
 
     .technologies-header{
         .technologies{
-            margin-left: 2rem;
             justify-content: center;
 
             .tech-icon{
@@ -421,11 +431,20 @@ body{
             }
 
             .tech-box{
-                padding: 10px;
+
+                h3{
+                    font-size: 0.8rem;
+                }
             }
         }
         h1{
             text-align: center;
+        }
+    }
+
+    .about-text{
+        h1{
+            margin-top: 8rem;
         }
     }
 }
