@@ -407,6 +407,14 @@ body{
             display: none;
         }
     }
+
+    .project-technologies{
+        span{
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+    }
     
     .links-span1{
         display: flex;

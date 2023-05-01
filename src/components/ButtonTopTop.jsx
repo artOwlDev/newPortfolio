@@ -27,7 +27,7 @@ const ButtonToTop = () => {
     return (
         <div>
             {showTopBtn && (
-                <BsArrowBarUp style={{position: 'fixed', left: '1rem', bottom: '1rem' , color: 'white', cursor: 'pointer', transition: 'all 0.5s ease', fontSize: "1.4rem"}}onClick={scrollUp}/>
+                <BsArrowBarUp style={{position: 'fixed', left: '1rem', bottom: '1rem' , color: 'black', cursor: 'pointer', transition: 'all 0.5s ease', fontSize: "2rem", background: "rgb(93, 180, 252)", borderRadius: "50%", padding: "6px"}}onClick={scrollUp}/>
             )}
             
         </div>
