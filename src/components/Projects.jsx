@@ -50,7 +50,7 @@ const Projects = () => {
                     <span>NASA EONET API</span>
                 </div>
 
-                <p>Web app that aims to provide real-time information to users about nearby natural disasters such as volcanoes, wildfires etc.</p>
+                <p>Web app that aims to provide real-time information to users about nearby natural disasters such as volcanoes, wildfires, tropical storms etc.</p>
                 <div className="project-links">
                     <a href="https://github.com/artOwlDev/StaySafe" target="_blank"><FiGithub className='project-icons'/></a>
                     <a href="https://www.stay-safe.live/" target="_blank"><HiOutlineExternalLink className='project-icons'/></a>
