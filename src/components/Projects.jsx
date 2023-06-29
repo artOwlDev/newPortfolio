@@ -17,14 +17,19 @@ const Projects = () => {
                 <img src={whisper} alt="" />
             </div>
             <div className="projects-info">
-                <h1>Whispr.tv -</h1>
+                <div className="project-name">
+                    <h1>Whispr - </h1>
+                    <p>March 2023 - present</p>
+                </div>
+                
+                
                 <div className="project-technologies">
                     <span>React.js</span>
                     <span>Firebase</span>
                     <span>TMDB API</span>
                 </div>
                 <p>Web app that serves as a social platform for users to rate, review, share their thought on movies and TV-series.</p>
-                <div className="project-links">n
+                <div className="project-links">
                     <a href="https://github.com/artOwlDev/newWhisper" target="_blank"><FiGithub className='project-icons'/></a>
                 </div>
             </div>
@@ -34,7 +39,10 @@ const Projects = () => {
                 <img src={staysafe} alt="" />
             </div>
             <div className="projects-info">
-                <h1>StaySafe -</h1>
+                <div className="project-name">
+                    <h1>StaySafe - </h1>
+                    <p>August 2022</p>
+                </div>
 
                 <div className="project-technologies">
                     <span>React.js</span>
@@ -56,8 +64,10 @@ const Projects = () => {
                 <img src={pixelton} alt="" />
             </div>
             <div className="projects-info">
-                <h1>Pixelton -</h1>
-
+                <div className="project-name">
+                    <h1>Pixelton - </h1>
+                    <p>February 2022</p>
+                </div>
                 <div className="project-technologies">
                     <span>React.js</span>
                     <span>React Color</span>
@@ -75,7 +85,10 @@ const Projects = () => {
                 <img src={foodie} alt="" />
             </div>
             <div className="projects-info">
-                <h1>Fooodie -</h1>
+                <div className="project-name">
+                    <h1>Fooodie - </h1>
+                    <p>February 2022</p>
+                </div>
                 <div className="project-technologies">
                     <span>React.js</span>
                     <span>Styled Components</span>
