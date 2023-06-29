@@ -24,7 +24,7 @@ const Projects = () => {
                     <span>TMDB API</span>
                 </div>
                 <p>Web app that serves as a social platform for users to rate, review, share their thought on movies and TV-series.</p>
-                <div className="project-links">
+                <div className="project-links">n
                     <a href="https://github.com/artOwlDev/newWhisper" target="_blank"><FiGithub className='project-icons'/></a>
                 </div>
             </div>
@@ -39,7 +39,7 @@ const Projects = () => {
                 <div className="project-technologies">
                     <span>React.js</span>
                     <span>Google Maps API</span>
-                    <span>TMDB API</span>
+                    <span>NASA EONET API</span>
                 </div>
 
                 <p>Web app that aims to provide information to users about nearby natural disasters such as volcanoes, wildfires etc.</p>
