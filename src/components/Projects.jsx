@@ -28,7 +28,7 @@ const Projects = () => {
                     <span>Firebase</span>
                     <span>TMDB API</span>
                 </div>
-                <p>Web app that serves as a social platform for users to rate, review, share their thought on movies and TV-series.</p>
+                <p>Full-stack web app that serves as a social platform for users to rate, review, share their thoughts on movies and TV-series.</p>
                 <div className="project-links">
                     <a href="https://github.com/artOwlDev/newWhisper" target="_blank"><FiGithub className='project-icons'/></a>
                     <a href="https://www.whispr.tv" target="_blank"><HiOutlineExternalLink className='project-icons'/></a>
