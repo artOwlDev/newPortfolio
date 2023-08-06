@@ -65,10 +65,10 @@ const Banner = () => {
         <div className="links">
             <div className="links-span1">
                 <span onClick={() => scrollTo("about")}> <FiUser className='icon' style={{margin: "0 2px"}}/> About</span>
-                <span onClick={() => scrollTo("technologies")}> <SiElectron className='icon' style={{margin: "0 2px"}}/> Technologies</span>
+                <span onClick={() => scrollTo("projects")}> <ImBook className='icon' style={{margin: "0 2px", color: "white"}}/> Projects</span>
             </div>
             <div className="links-span2">
-                <span onClick={() => scrollTo("projects")}> <ImBook className='icon' style={{margin: "0 2px", color: "white"}}/> Projects</span>
+                <span onClick={() => scrollTo("technologies")}> <SiElectron className='icon' style={{margin: "0 2px"}}/> Technologies</span>
                 <span onClick={() => scrollTo("contact")}> <AiOutlineMail className='icon' style={{margin: "0 2px"}}/> Contact</span>
             </div>
         </div>
