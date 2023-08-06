@@ -18,8 +18,8 @@ function App() {
       <Banner/>
       <ButtonToTop/>
       <About/>
-      <Technologies/>
       <Projects/>
+      <Technologies/>
       <Contact/>
       <Footer/>
     </div>

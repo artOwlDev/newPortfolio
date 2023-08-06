@@ -10,7 +10,7 @@ import {HiOutlineExternalLink} from "react-icons/hi"
 
 const Projects = () => {
   return (
-    <div className='projects'>
+    <div  id="projects" className='projects'>
         <h1 className='projects-h1'>Projects</h1>
         <div className="projects-box">
             <div className="projects-image">
