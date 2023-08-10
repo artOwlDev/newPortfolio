@@ -58,7 +58,7 @@ const Banner = () => {
             </div>
         </div>
 
-        <div className="banner-my-image" data-aos="fade-in">
+        <div className="banner-my-image">
             <img src={portrait} alt="" />
         </div>
 
