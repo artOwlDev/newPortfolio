@@ -42,16 +42,24 @@ function App() {
         <Loader/>
       ) : (
         <>
+            <div data-aos="fade-in">
 
-          <div data-aos="fade-in">
-            <Banner/>
-            <ButtonToTop/>
-            <About/>
-            <Projects/>
-            <Technologies/>
-            <Contact/>
-            <Footer/>
-          </div>
+              <Banner/>
+              <About/>
+
+              <div data-aos="fade-in">
+                <Projects/>
+              </div>
+
+              <div data-aos="fade-in">
+                <Technologies/>
+              </div>
+
+              <Contact/>
+              <Footer/>
+              <ButtonToTop/>
+
+            </div>
         </>
       
       

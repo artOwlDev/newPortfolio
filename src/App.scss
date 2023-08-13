@@ -244,12 +244,12 @@ body{
 }
 
 .footer{
-    background-color: rgb(0, 0, 1);
+    background-color: rgba(151, 139, 186, 0.304);
     font-family: 'Montserrat', sans-serif;
     color: white;
     height: 5vh;
     display: flex;
-    padding: 0rem 20rem;
+    padding: 2rem 20rem;
     align-items: center;
     justify-content: space-between;
 }
@@ -300,12 +300,17 @@ body{
 }
 
 .tech-box:hover{
-    background-color: rgb(93, 180, 252);
+    background-color: rgb(151, 139, 186);
     color: black;
     transition: all 0.2s ease-in-out;
+    cursor: pointer;
     
     .tech-icon{
-        color: whitesmoke;
+        color: white;
+    }
+
+    h3{
+        color: white;
     }
     
 }
@@ -380,22 +385,26 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 20px;
+    gap: 2rem;
     font-family: "Poppins";
-    animation: loaderAnimation 1.4s infinite alternate linear;
 
+    
 
 
     img{
-        height: 20vh;
+        height: 16vh;
         object-fit: contain;
+        animation: loaderAnimation 1.4s infinite alternate linear;
+
     }
 
-    h1{
+    p{
         color: white;
         text-align: center;
+        font-size: 1.4rem;
     }
 }
+
 
 @keyframes loaderAnimation {
     0% {
@@ -419,6 +428,11 @@ body{
                 margin-top: 3rem;
             }
         }
+    }
+
+    .projects-h1{
+        font-size: 1.4rem;
+
     }
 
 
@@ -485,6 +499,7 @@ body{
             .tech-icon{
                 padding: 10px;
             }
+         
 
             .tech-box{
 
@@ -495,6 +510,8 @@ body{
         }
         h1{
             text-align: center;
+            font-size: 1.2rem;
+
         }
     }
 
@@ -503,4 +520,11 @@ body{
             margin-top: 8rem;
         }
     }
+
+    .tech-icon{
+        font-size: 3.4rem;
+        color: rgb(151, 139, 186);
+    }
+
+    
 }
