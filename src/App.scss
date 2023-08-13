@@ -287,9 +287,12 @@ body{
 
 .technologies{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(14vh, 1fr));
-    max-width: 800px;
+    grid-template-columns: repeat(auto-fit, minmax(16vh, 1fr));
+    width: 800px;
     margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .tech-box{
@@ -523,6 +526,7 @@ body{
     
     .links-span1{
         display: flex;
+        
         gap: 1rem;
     }
     
