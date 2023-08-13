@@ -32,6 +32,14 @@ body{
   
 }
 
+.button-to-top{
+    color: white;
+    position: sticky;
+    bottom: 0;
+}
+
+
+
 .banner-text h1{
     font-size: 3rem;
     font-family: 'Montserrat Alternates', sans-serif;
@@ -420,12 +428,17 @@ body{
 @media screen and (max-width: 1000px){
 
     .banner{
+        height: 30vh;
+        
+        .banner-image{
+            height: 30vh;
+        }
+
         .banner-my-image{
-            position: static;
+            position: absolute;
 
             img{
                 position: static;
-                margin-top: 3rem;
             }
         }
     }
@@ -433,6 +446,10 @@ body{
     .projects-h1{
         font-size: 1.4rem;
 
+    }
+
+    .about{
+        margin-top: 8rem;
     }
 
 
@@ -443,6 +460,10 @@ body{
         margin: 10rem;
         box-shadow: none;
 
+        .project-name{
+            border-bottom: 1px solid white;
+
+        }
         .project-technologies span{
             align-items: center;
         }
@@ -495,6 +516,7 @@ body{
     .technologies-header{
         .technologies{
             justify-content: center;
+            width: 80vw;
 
             .tech-icon{
                 padding: 10px;
@@ -525,6 +547,8 @@ body{
         font-size: 3.4rem;
         color: rgb(151, 139, 186);
     }
+
+
 
     
 }

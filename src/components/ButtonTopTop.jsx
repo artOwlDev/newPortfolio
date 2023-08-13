@@ -25,9 +25,9 @@ const ButtonToTop = () => {
     }
 
     return (
-        <div>
+        <div className='button-top'>
             {showTopBtn && (
-                <BsArrowBarUp style={{position: 'absolute', left: '1rem', bottom: '1rem' , color: 'white', cursor: 'pointer', transition: 'all 0.5s ease', fontSize: "2rem", background: "white`", borderRadius: "50%", padding: "6px"}}onClick={scrollUp}/>
+                <BsArrowBarUp onClick={scrollUp} className="button-to-top"/>
             )}
             
         </div>

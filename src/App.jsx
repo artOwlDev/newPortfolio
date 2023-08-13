@@ -49,7 +49,10 @@ function App() {
 
               <div data-aos="fade-in">
                 <Projects/>
+
               </div>
+
+
 
               <div data-aos="fade-in">
                 <Technologies/>
@@ -57,7 +60,6 @@ function App() {
 
               <Contact/>
               <Footer/>
-              <ButtonToTop/>
 
             </div>
         </>
