@@ -2,6 +2,7 @@ import React from 'react'
 import {AiFillLinkedin, AiFillGithub, AiOutlineInstagram} from "react-icons/ai"
 import {FaGithub, FaLinkedinIn} from "react-icons/fa"
 import {FiGithub} from "react-icons/fi"
+import { Link } from 'react-router-dom'
 
 const Contact = () => {
   return (
@@ -11,8 +12,10 @@ const Contact = () => {
         <div className="contact-icons">
             <a href="https://www.linkedin.com/in/artunselcuk/" target="_blank"><FaLinkedinIn className='contact-icon'/></a>
             <a href="https://github.com/artOwlDev" target="_blank"><FiGithub className='contact-icon'/></a>
-            <a href="https://www.instagram.com/artunipunii/" arget="_blank"><AiOutlineInstagram className='contact-icon'/></a>
+            <a href="https://www.instagram.com/artunipunii/" target="_blank"><AiOutlineInstagram className='contact-icon'/></a>
         </div>
+        
+          <a target="_blank" href='https://drive.google.com/file/d/1FB3Fi3kkupd-0gvW_F7Bs-AJC1ao6WAu/view?usp=drive_link'><button>Resume</button></a>
     </div>
   )
 }
