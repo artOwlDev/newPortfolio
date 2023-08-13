@@ -12,7 +12,7 @@ import image8 from "../img/background8.avif"
 import image9 from "../img/background9.avif"
 
 
-const imagesArray = [image, image2, image3, image4, image5, image7, image8, image9];
+const imagesArray = [image, image2,image2,image2, image3, image4, image5, image7, image8, image9];
 
 import portrait from "../img/portrait2.jpeg"
 import Aos from 'aos';
@@ -75,7 +75,7 @@ const Banner = () => {
         <div className="links">
             <div className="links-span1">
                 <span onClick={() => scrollTo("about")}> <FiUser className='icon' style={{margin: "0 2px"}}/> About</span>
-                <span onClick={() => scrollTo("projects")}> <ImBook className='icon' style={{margin: "0 2px", color: "white"}}/> Projects</span>
+                <span onClick={() => scrollTo("projects")}> <ImBook className='icon' style={{margin: "0 2px"}}/> Projects</span>
             </div>
             <div className="links-span2">
                 <span onClick={() => scrollTo("technologies")}> <SiElectron className='icon' style={{margin: "0 2px"}}/> Technologies</span>
