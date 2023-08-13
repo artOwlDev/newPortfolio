@@ -215,7 +215,8 @@ body{
 }
 
 .project-technologies span{
-    background-color:rgb(93, 180, 252);
+    background-color: rgb(93, 180, 252);
+
     border-radius: 10px;
     padding: 2px 12px;
     color: black;
@@ -252,7 +253,7 @@ body{
 }
 
 .footer{
-    background-color: rgba(151, 139, 186, 0.304);
+    background-color: rgba(93, 180, 252, 0.311);
     font-family: 'Montserrat', sans-serif;
     color: white;
     height: 5vh;
@@ -308,7 +309,7 @@ body{
 }
 
 .tech-box:hover{
-    background-color: rgb(151, 139, 186);
+    background-color: rgb(93, 180, 252);;
     color: black;
     transition: all 0.2s ease-in-out;
     cursor: pointer;
@@ -325,7 +326,7 @@ body{
 
 .tech-icon{
     font-size: 4rem;
-    color: rgb(151, 139, 186);
+    color: rgb(93, 180, 252);
 }
 
 .technologies-header{
@@ -424,6 +425,7 @@ body{
         height: 16vh;
         object-fit: contain;
         animation: loaderAnimation 1.4s infinite alternate linear;
+        
 
     }
 

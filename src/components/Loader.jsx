@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState } from 'react'
 import loader from "../img/loader-owl6.png"
+import altloader from "../img/artunselcuk.png"
 
 const Loader = () => {
     const [dots, setDots] = useState('');
@@ -24,7 +25,7 @@ const Loader = () => {
 
   return (
     <div className='loader'>
-        <img src={loader} alt="" />
+        <img src={altloader} alt="" />
         <p>Just a second{dots}</p>
     </div>
   )
