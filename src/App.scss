@@ -174,12 +174,13 @@ body{
     color: whitesmoke;
     font-family: 'Mada', sans-serif;
     border-radius: 1rem;
-    max-height: 18rem;
+    height: 18rem;
     max-width: 60rem;
     box-shadow: 0 0 1.2px rgb(93, 180, 252);
     background-size: 100% 100%;
     display: flex;
     transition: all 0.5s ease-in-out;
+    align-items: center;
 
 }
 
@@ -467,6 +468,11 @@ body{
                 position: static;
             }
         }
+
+        .links{
+            font-size: 0.8rem;
+            text-decoration: underline;
+        }
     }
 
     .projects-h1{
@@ -475,7 +481,9 @@ body{
     }
 
     .about{
-        margin-top: 8rem;
+        margin-top: 10rem;
+        margin-left: auto;
+        margin-right: auto;
     }
 
 
