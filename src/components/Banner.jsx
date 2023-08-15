@@ -34,11 +34,15 @@ const Banner = () => {
     }
 
     const scrollTo = (name) => {
-        const projectsElement = document.getElementById(`${name}`);
+        console.log("Trying to scroll to:", name);
+        const projectsElement = document.getElementById(name);
         if (projectsElement) {
-          projectsElement.scrollIntoView({ behavior: 'smooth' });
+            console.log("Element found:", projectsElement);
+            projectsElement.scrollIntoView({ behavior: 'smooth' });
+        } else {
+            console.log("Element not found:", name);
         }
-      };
+    };
 
 
     useEffect(() => {
@@ -51,7 +55,14 @@ const Banner = () => {
 
   return (
     <div className='banner'>
-        <img className='banner-image' src={randomImage}/>
+
+        <div className="links-for-mobile">
+            <span onClick={() => scrollTo("about")}> <FiUser className='icon' style={{margin: "0 2px"}}/> About</span>
+            <span onClick={() => scrollTo("projects")}> <ImBook className='icon' style={{margin: "0 2px"}}/> Projects</span>
+            <span onClick={() => scrollTo("technologies")}> <SiElectron className='icon' style={{margin: "0 2px"}}/> Tech-stack</span>
+            <span onClick={() => scrollTo("contact")}> <AiOutlineMail className='icon' style={{margin: "0 2px"}}/> Contact</span>
+        </div>
+        
 
         <div className="banner-text">
             <h1>Artun Selçuk</h1>
@@ -68,20 +79,19 @@ const Banner = () => {
             </div>
         </div>
 
-        <div className="banner-my-image">
+
+        <div className="banner-component">
+            <span onClick={() => scrollTo("about")}> <FiUser className='icon' style={{margin: "0 2px"}}/> About</span>
+            <span onClick={() => scrollTo("projects")}> <ImBook className='icon' style={{margin: "0 2px"}}/> Projects</span>
             <img src={portrait} alt="" />
+            <span onClick={() => scrollTo("technologies")}> <SiElectron className='icon' style={{margin: "0 2px"}}/> Tech-stack</span>
+            <span onClick={() => scrollTo("contact")}> <AiOutlineMail className='icon' style={{margin: "0 2px"}}/> Contact</span>
+
         </div>
 
-        <div className="links">
-            <div className="links-span1">
-                <span onClick={() => scrollTo("about")}> <FiUser className='icon' style={{margin: "0 2px"}}/> About</span>
-                <span onClick={() => scrollTo("projects")}> <ImBook className='icon' style={{margin: "0 2px"}}/> Projects</span>
-            </div>
-            <div className="links-span2">
-                <span onClick={() => scrollTo("technologies")}> <SiElectron className='icon' style={{margin: "0 2px"}}/> Technologies</span>
-                <span onClick={() => scrollTo("contact")}> <AiOutlineMail className='icon' style={{margin: "0 2px"}}/> Contact</span>
-            </div>
-        </div>
+        
+
+        
     </div>
   )
 }

@@ -1,10 +1,13 @@
 body{
     background-color: #121212;
+    overflow-x: hidden;
 }
 
 .banner{
     height: 40vh;
     background-color: #121212;
+    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/background4.jpg) no-repeat center;
+    background-size: cover;
     position: relative;
     
 }
@@ -14,6 +17,7 @@ body{
     width: 100vw;
     object-fit: cover;
     opacity: 0.2;
+    position: relative;
 }
 
 .banner-text{
@@ -21,15 +25,25 @@ body{
     font-family: "Poppins";
     height: 40vh;
     position: absolute;
-    width: 100vw;
+    left: 0;
+    right: 0;
+    margin: auto;
     display: flex;
     flex-direction: column;
-    top: 0;
+    bottom: 0;
     align-items: center;
     justify-content: center;
     gap: 1.4rem;
+    margin-bottom: 1rem;
+    
+    
 
   
+}
+
+.links-for-mobile{
+    z-index: 99;
+    visibility: hidden;
 }
 
 .button-to-top{
@@ -58,58 +72,42 @@ body{
     font-size: 1.2rem;
 }
 
-.banner-my-image{
+.banner-component{
     position: absolute;
-    top: 21rem;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.banner-my-image img{
-    border-radius: 50%;
-    height: 20vh;
-    transition: all 0.5s ease;
-    opacity: 0.9;
-}
-
-.banner-my-image img:hover{
-    transform: scale(1.05);
-}
-
-
-
-.links{
-    position: absolute;
+    bottom: -18%;
+    font-family: "Poppins";
     color: white;
-    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 24rem;
-    top: 27rem;
+    gap: 2.4rem;
+    margin: 0 auto;
+    width: 100%;
+    margin-left: 1rem;
+
+    span:hover{
+        color: rgb(93, 180, 252);
+        cursor: pointer;
+        transition: all 0.5s ease;
+    }
+    
+
+    img{
+        height: 20vh;
+        border-radius: 50%;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 1px 4px;
+        border: 1px solid rgba(0, 0, 0, 0.543);
+
+        &:hover{
+            transform: scale(1.03);
+            transition: all 0.5s ease-in-out
+
+        }
+    }
 }
 
-.links-span1{
-    display: flex;
-    gap: 3rem;
-}
 
-.links-span2{
-    display: flex;
-    gap: 3rem;
-}
 
-.links span{
-    font-family: "Poppins";
-
-}
-
-.links span:hover{
-    color: rgb(93, 180, 252);
-    cursor: pointer;
-    transition: all 0.5s ease;
-}
 
 
 
@@ -189,6 +187,16 @@ body{
 
 }
 
+.links-for-mobile{
+    position: absolute;
+    top: 10%;
+    font-family: "Poppins";
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+}
 
 
 .projects-info{
@@ -455,10 +463,10 @@ body{
 @media screen and (max-width: 1000px){
 
     .banner{
-        height: 30vh;
+        height: 40vh;
         
         .banner-image{
-            height: 30vh;
+            height: 40vh;
         }
 
         .banner-my-image{
@@ -480,8 +488,37 @@ body{
 
     }
 
+    .links-for-mobile{
+        display: flex;
+        gap: 1rem;
+        text-decoration: underline;
+        visibility: visible;
+
+        span{
+            display: inline; 
+        }
+
+
+        .icon{
+            display: none;
+        }
+    }
+
+    .banner-component{
+        margin: 0;
+        
+
+       
+    }
+
+    .banner-component span{
+        display: none;
+
+       
+    }
+
     .about{
-        margin-top: 10rem;
+        margin-top: 2rem;
         margin-left: auto;
         margin-right: auto;
     }
