@@ -9,6 +9,8 @@ body{
     background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/background4.jpg) no-repeat center;
     background-size: cover;
     position: relative;
+
+ 
     
 }
 
@@ -34,11 +36,15 @@ body{
     align-items: center;
     justify-content: center;
     gap: 1.4rem;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
     
-    
+   
+}
 
-  
+
+.banner-component{
+    font-family: "Poppins";
+
 }
 
 .links-for-mobile{
@@ -126,6 +132,11 @@ body{
     flex-direction: column;
     font-family: 'Montserrat', sans-serif;
     color: white;
+
+    h1 span{
+        color: rgb(151, 139, 186);
+
+    }
     
 }
 
@@ -469,6 +480,10 @@ body{
             height: 40vh;
         }
 
+        .banner-text{
+            padding: 4rem 0;
+        }
+
         .banner-my-image{
             position: absolute;
 
@@ -491,11 +506,12 @@ body{
     .links-for-mobile{
         display: flex;
         gap: 1rem;
-        text-decoration: underline;
         visibility: visible;
+        font-size: 0.8rem;
 
         span{
             display: inline; 
+
         }
 
 
@@ -505,9 +521,10 @@ body{
     }
 
     .banner-component{
-        margin: 0;
         
+        margin: 0;
 
+      
        
     }
 
