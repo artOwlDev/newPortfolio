@@ -45,7 +45,9 @@ function App() {
             <div data-aos="fade-in">
 
               <Banner/>
+
               <About/>
+
 
               <div data-aos="fade-in">
                 <Projects/>

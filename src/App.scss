@@ -113,10 +113,20 @@ body{
 }
 
 
+.arrow{
+    border: 1px solid red;
+    .icon{
+        animation: arrowAnimation 1s alternate infinite;
 
-
-
-
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        color: white;
+        display: flex;
+        justify-content: center;
+        font-size: 3rem;
+    }
+}
 
 .about{
     margin-top: 10rem;
@@ -133,10 +143,16 @@ body{
     font-family: 'Montserrat', sans-serif;
     color: white;
 
-    h1 span{
-        color: rgb(151, 139, 186);
+    h1{
+        font-weight: 500;
 
+        span{
+            font-weight: 600;
+    
+        }
     }
+    
+    
     
 }
 
@@ -155,7 +171,7 @@ body{
     font-size: 1.1rem;
 }
 .about-text span{
-    color: rgb(93, 180, 252);;
+    color: rgb(129, 197, 252);;
 }
 
 
@@ -640,4 +656,7 @@ body{
 
 
     
+}
+@keyframes arrowAnimation{
+    from {transform: translateY(-30px);}
 }
