@@ -73,7 +73,7 @@ const Banner = () => {
                     strings: ['Software Engineer', 'Computer Science @DalhousieU', 'T3 Stack Enthusiast', 'Coffee Enjoyer'],
                     autoStart: true,
                     loop: true,
-                    deleteSpeed: 40,
+                    deleteSpeed: 50,
                     pauseFor: 900
             }}/>
             </div>
