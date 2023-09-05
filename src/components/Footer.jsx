@@ -1,5 +1,3 @@
-
-
 import React from 'react'
 import { SocialIcon } from 'react-social-icons';
 import {AiFillLinkedin, AiFillGithub, AiFillInstagram} from "react-icons/ai"

@@ -15,7 +15,7 @@ const Contact = () => {
             <a href="https://www.instagram.com/artunipunii/" target="_blank"><AiOutlineInstagram className='contact-icon'/></a>
         </div>
         
-          <a target="_blank" href='https://drive.google.com/file/d/1FB3Fi3kkupd-0gvW_F7Bs-AJC1ao6WAu/view?usp=drive_link'><button>Resume</button></a>
+          <a target="_blank" href='https://drive.google.com/file/d/11U_o3AIevDijHdtC5d9JPP0Vhlx6FI5O/view?usp=drive_link'><button>Resume</button></a>
     </div>
   )
 }
