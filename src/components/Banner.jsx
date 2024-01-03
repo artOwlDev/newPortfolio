@@ -22,6 +22,7 @@ import {SiElectron} from "react-icons/si"
 import {GrProjects} from "react-icons/gr"
 import {ImBook} from "react-icons/im"
 import {AiOutlineMail} from "react-icons/ai"
+import { FaLaptop } from "react-icons/fa";
 
 const Banner = () => {
     const randomImage = imagesArray[Math.floor(Math.random() * imagesArray.length)];
@@ -58,9 +59,9 @@ const Banner = () => {
 
         <div className="links-for-mobile">
             <span onClick={() => scrollTo("about")}> <FiUser className='icon' style={{margin: "0 2px"}}/> About</span>
-            <span onClick={() => scrollTo("projects")}> <ImBook className='icon' style={{margin: "0 2px"}}/> Projects</span>
-            <span onClick={() => scrollTo("technologies")}> <SiElectron className='icon' style={{margin: "0 2px"}}/> Tech-stack</span>
-            <span onClick={() => scrollTo("contact")}> <AiOutlineMail className='icon' style={{margin: "0 2px"}}/> Contact</span>
+            <span onClick={() => scrollTo("projects")}> <ImBook className='icon' style={{margin: "0 2px"}}/> Experience</span>
+            <span onClick={() => scrollTo("technologies")}> <SiElectron className='icon' style={{margin: "0 2px"}}/> Projects</span>
+            <span onClick={() => scrollTo("contact")}> <AiOutlineMail className='icon' style={{margin: "0 2px"}}/> Tech-stack</span>
         </div>
         
 
@@ -82,10 +83,11 @@ const Banner = () => {
 
         <div className="banner-component">
             <span onClick={() => scrollTo("about")}> <FiUser className='icon' style={{margin: "0 2px"}}/> About</span>
-            <span onClick={() => scrollTo("projects")}> <ImBook className='icon' style={{margin: "0 2px"}}/> Projects</span>
+            <span onClick={() => scrollTo("experience")}> <FaLaptop className='icon' style={{margin: "0 2px"}}/> Experience</span>
+
             <img src={portrait} alt="" />
+            <span onClick={() => scrollTo("projects")}> <ImBook className='icon' style={{margin: "0 2px"}}/> Projects</span>
             <span onClick={() => scrollTo("technologies")}> <SiElectron className='icon' style={{margin: "0 2px"}}/> Tech-stack</span>
-            <span onClick={() => scrollTo("contact")}> <AiOutlineMail className='icon' style={{margin: "0 2px"}}/> Contact</span>
 
         </div>
 

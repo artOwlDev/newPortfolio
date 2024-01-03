@@ -1,15 +1,134 @@
 body{
     background-color: #121212;
-    overflow-x: hidden;
+    font-family: "Poppins";
 
 }
 
+.experience{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-size: 0.6rem;
+    color: white;
+    margin-bottom: 6rem;
+
+    .header-div{
+        h1{
+            font-size: 1.6rem;
+        }
+    }
+
+
+    .experience-box{
+        box-shadow: 0 0 1.2px rgb(93, 180, 252);
+        border-radius: 1rem;
+
+        width: 900px;
+        height: 200px;
+        display: flex;
+        gap: 10px;
+        transition: all 0.3s ease-in-out;
+        background: #121212;
+
+        &:hover{
+            transform: translateY(-8px);
+        }
+
+        .experience-box-left{
+            
+    
+            img{
+                width: 300px;
+                height: 200px;
+                border-top-left-radius: 1rem;
+                border-bottom-left-radius: 1rem;
+    
+            }
+        }
+
+        .experience-box-right{
+            display: flex;
+            flex-direction: column;
+            padding: 1rem ;
+            gap: 1rem;
+
+            .experience-box-right-header{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                h1{
+                    font-size: 1.1rem;
+                }
+
+                p{
+                    font-size: 0.8rem;
+                }
+            }
+
+            .experience-box-right-details{
+                p{
+                    font-size: 0.8rem;
+                    color: rgba(255, 255, 255, 0.801);
+                    padding: 0.5rem 0;
+                }
+            }
+
+        }
+
+
+    }
+
+}
+
+.sidebar-container {
+    position: absolute;
+    top: 0%; 
+    min-height: 100%;
+
+    .sidebar {
+        position: sticky;
+        top: 50%; 
+        left: 20%;
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+
+        .social-icon{
+            transition: all 0.3s ease-in-out;
+
+            &:hover{
+                transform: translateY(-2px);
+
+            }
+
+            &.ig{
+                background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);      
+            }
+            &.linkedin{
+                background: #037fb1
+            }
+
+            &.github{
+                background: #24292d;
+            }
+            &.resume{
+                background: #dc4b39;
+            }
+        }
+    }
+}
 .banner{
     height: 40vh;
     background-color: #121212;
-    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/background4.jpg) no-repeat center;
+    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/background5.avif) no-repeat center;
     background-size: cover;
     position: relative;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.084);
 
  
     
@@ -103,7 +222,6 @@ body{
         height: 20vh;
         border-radius: 50%;
         box-shadow: rgba(149, 157, 165, 0.2) 0px 1px 4px;
-        border: 1px solid rgba(0, 0, 0, 0.543);
 
         &:hover{
             transform: scale(1.03);
@@ -133,7 +251,7 @@ body{
     margin-top: 10rem;
     display: flex;
     justify-content: center;
-    margin-bottom: 16rem;
+    margin-bottom: 6rem;
 }
 
 .about-text{
@@ -208,6 +326,7 @@ body{
     display: flex;
     transition: all 0.5s ease-in-out;
     align-items: center;
+    background: #121212;
 
 }
 
@@ -492,6 +611,37 @@ body{
 }
 @media screen and (max-width: 1000px){
 
+    
+    
+    .experience{
+        
+
+        .experience-box{
+            
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+            width: 400px;
+            height: auto;
+            box-shadow: none;
+
+            .experience-box-right{
+
+                .experience-box-right-header{
+
+                    h1{
+                        font-size: 0.9rem;
+                        padding: 10px;
+                    }
+
+                    flex-direction: column;
+                }
+            }
+        }
+    }
+    
+
     .banner{
         height: 40vh;
         
@@ -526,7 +676,8 @@ body{
         display: flex;
         gap: 1rem;
         visibility: visible;
-        font-size: 0.8rem;
+        font-size: 1rem;
+        padding-bottom: 1rem;
 
         span{
             display: inline; 
@@ -645,11 +796,26 @@ body{
         }
     }
 
-    .about-text{
-        h1{
-            margin-top: 8rem;
+    .about{
+
+        .about-text{
+            h1{
+                padding-bottom: 0;
+                margin-top: 3rem;
+                font-size: 1.4rem;
+                
+            }
+
+            p{
+
+                font-size: 0.8rem;
+                padding: 0 1rem;
+            }
+
         }
     }
+
+    
 
     .tech-icon{
         font-size: 3.4rem;

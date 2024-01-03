@@ -12,6 +12,9 @@ import Contact from './components/Contact'
 import Loader from './components/Loader'
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import ParticlesBackground from './components/ParticlesBackground'
+import Sidebar from './components/Sidebar'
+import Experience from './components/Experience'
 
 
 function App() {
@@ -38,31 +41,27 @@ function App() {
 
   return (
     <div className="App">
+      <ParticlesBackground/>
+
+      
+
       {isLoading ? (
         <Loader/>
       ) : (
         <>
             <div data-aos="fade-in">
-
               <Banner/>
-
               <About/>
-
-
+              <Sidebar/>
               <div data-aos="fade-in">
+                <Experience/>
                 <Projects/>
-
-              </div>
-
-
-
-              <div data-aos="fade-in">
                 <Technologies/>
+
               </div>
 
               <Contact/>
               <Footer/>
-
 
             </div>
         </>
