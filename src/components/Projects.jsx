@@ -5,6 +5,7 @@ import foodie from '../img/foodie.jpeg'
 import pixelton from "../img/pixelton.jpeg"
 import whisper from "../img/whispr.jpg"
 import staysafe from "../img/staysafe.jpeg"
+import coffeeology from "../img/coffeeology.jpg"
 import {FiGithub} from "react-icons/fi"
 import {HiOutlineExternalLink} from "react-icons/hi"
 
@@ -14,12 +15,34 @@ const Projects = () => {
         <h1 className='projects-h1'>Projects</h1>
         <div className="projects-box">
             <div className="projects-image">
+                <img src={coffeeology} alt="" />
+            </div>
+            <div className="projects-info">
+                <div className="project-name">
+                    <h1>Cafe Website</h1>
+                    <p>Dec '23</p>
+                </div>
+                
+                
+                <div className="project-technologies">
+                    <span>React.js</span>
+                </div>
+                <p>Personalized website for one of the busiest cafes in my area, Coffeeology Espresso.</p>
+                <div className="project-links">
+                    <a href="https://github.com/artOwlDev/newWhisper" target="_blank"><FiGithub className='project-icons'/></a>
+                    <a href="https://www.whispr.tv" target="_blank"><HiOutlineExternalLink className='project-icons'/></a>
+
+                </div>
+            </div>
+        </div>
+        <div className="projects-box">
+            <div className="projects-image">
                 <img src={whisper} alt="" />
             </div>
             <div className="projects-info">
                 <div className="project-name">
                     <h1>Whispr - </h1>
-                    <p>March 2023 - present</p>
+                    <p>Mar '23 - present</p>
                 </div>
                 
                 
@@ -43,7 +66,7 @@ const Projects = () => {
             <div className="projects-info">
                 <div className="project-name">
                     <h1>StaySafe - </h1>
-                    <p>August 2022</p>
+                    <p>Aug '22</p>
                 </div>
 
                 <div className="project-technologies">
@@ -61,6 +84,7 @@ const Projects = () => {
             
 
         </div>
+        
         <div className="projects-box">
             <div className="projects-image">
                 <img src={pixelton} alt="" />
@@ -68,7 +92,7 @@ const Projects = () => {
             <div className="projects-info">
                 <div className="project-name">
                     <h1>Pixelton - </h1>
-                    <p>February 2022</p>
+                    <p>Feb '22</p>
                 </div>
                 <div className="project-technologies">
                     <span>React.js</span>
@@ -89,7 +113,7 @@ const Projects = () => {
             <div className="projects-info">
                 <div className="project-name">
                     <h1>Fooodie - </h1>
-                    <p>February 2022</p>
+                    <p>Feb '22</p>
                 </div>
                 <div className="project-technologies">
                     <span>React.js</span>

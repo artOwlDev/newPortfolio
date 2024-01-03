@@ -23,8 +23,9 @@ const ParticlesBackground = () => {
 
 
   return (
-    <div>
+    <div className='particles-container'>
         <Particles
+            className='particles'
             id="tsparticles"
             init={particlesInit}
             loaded={particlesLoaded}

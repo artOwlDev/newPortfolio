@@ -1,6 +1,7 @@
 body{
     background-color: #121212;
     font-family: "Poppins";
+    overflow-x: hidden;
 
 }
 
@@ -23,7 +24,7 @@ body{
 
 
     .experience-box{
-        box-shadow: 0 0 1.2px rgb(93, 180, 252);
+        box-shadow: 0 0 2px rgb(93, 180, 252);
         border-radius: 1rem;
 
         width: 900px;
@@ -321,7 +322,7 @@ body{
     border-radius: 1rem;
     height: 18rem;
     max-width: 60rem;
-    box-shadow: 0 0 1.2px rgb(93, 180, 252);
+    box-shadow: 0 0 2px rgb(93, 180, 252);
     background-size: 100% 100%;
     display: flex;
     transition: all 0.5s ease-in-out;
@@ -337,7 +338,7 @@ body{
 
 .links-for-mobile{
     position: absolute;
-    top: 10%;
+    top: 5%;
     font-family: "Poppins";
     color: white;
     justify-content: center;
@@ -626,6 +627,13 @@ body{
             height: auto;
             box-shadow: none;
 
+            .experience-box-left{
+                img{
+                    border-top-right-radius: 1rem;
+                    border-bottom-right-radius: 1rem;
+                }
+            }
+
             .experience-box-right{
 
                 .experience-box-right-header{
@@ -820,6 +828,10 @@ body{
     .tech-icon{
         font-size: 3.4rem;
         color: rgb(151, 139, 186);
+    }
+
+    .sidebar-container{
+        display: none;
     }
 
 

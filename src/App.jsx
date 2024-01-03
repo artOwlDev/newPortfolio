@@ -51,8 +51,8 @@ function App() {
         <>
             <div data-aos="fade-in">
               <Banner/>
-              <About/>
               <Sidebar/>
+              <About/>
               <div data-aos="fade-in">
                 <Experience/>
                 <Projects/>
