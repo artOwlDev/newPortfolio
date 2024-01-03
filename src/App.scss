@@ -234,7 +234,6 @@ body{
 
 
 .arrow{
-    border: 1px solid red;
     .icon{
         animation: arrowAnimation 1s alternate infinite;
 
@@ -636,6 +635,10 @@ body{
 
             .experience-box-right{
 
+                .experience-box-right-details{
+                    margin: 0 0.4rem;
+                }
+
                 .experience-box-right-header{
 
                     h1{
@@ -723,7 +726,7 @@ body{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: 10rem;
+        margin: 8rem;
         box-shadow: none;
 
         .project-name{
