@@ -29,8 +29,8 @@ const Projects = () => {
                 </div>
                 <p>Personalized website for one of the busiest cafes in my area, Coffeeology Espresso.</p>
                 <div className="project-links">
-                    <a href="https://github.com/artOwlDev/newWhisper" target="_blank"><FiGithub className='project-icons'/></a>
-                    <a href="https://www.whispr.tv" target="_blank"><HiOutlineExternalLink className='project-icons'/></a>
+                    <a href="https://github.com/artOwlDev/coffeeology" target="_blank"><FiGithub className='project-icons'/></a>
+                    <a href="https://coffeeologyespresso.co" target="_blank"><HiOutlineExternalLink className='project-icons'/></a>
 
                 </div>
             </div>
