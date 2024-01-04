@@ -97,29 +97,23 @@ body{
         width: 100px;
         display: flex;
         flex-direction: column;
-        gap: 4px;
+        gap: 1rem;
+        padding-left: 10px;
+
 
         .social-icon{
             transition: all 0.3s ease-in-out;
 
+
             &:hover{
-                transform: translateY(-2px);
+                transform: translateX(4px);
 
             }
 
             &.ig{
-                background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);      
+           
             }
-            &.linkedin{
-                background: #037fb1
-            }
-
-            &.github{
-                background: #24292d;
-            }
-            &.resume{
-                background: #dc4b39;
-            }
+           
         }
     }
 }
