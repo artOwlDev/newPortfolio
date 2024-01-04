@@ -27,7 +27,7 @@ const Projects = () => {
                 <div className="project-technologies">
                     <span>React.js</span>
                 </div>
-                <p>Personalized website for one of the busiest cafes in my area, Coffeeology Espresso.</p>
+                <p>Personalized website for one of the busiest cafes in Halifax, NS. Coffeeology Espresso.</p>
                 <div className="project-links">
                     <a href="https://github.com/artOwlDev/coffeeology" target="_blank"><FiGithub className='project-icons'/></a>
                     <a href="https://coffeeologyespresso.co" target="_blank"><HiOutlineExternalLink className='project-icons'/></a>

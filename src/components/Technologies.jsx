@@ -11,7 +11,7 @@ import {BsFillBootstrapFill} from "react-icons/bs"
 const Technologies = () => {
   return (
     <div id="technologies" className="technologies-header">
-      <h1>Some of the technologies I've worked with</h1>
+      <h1>Tech Stack</h1>
       <div className='technologies'>
           <div className="tech-box">
             <DiJavascript1 className='tech-icon'/>
