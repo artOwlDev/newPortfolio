@@ -28,7 +28,7 @@ const Sidebar = () => {
         <div className="sidebar">
 
             <SocialIcon 
-                url="https://linkedin.com/in/https://www.linkedin.com/in/artunselcuk/"
+                url="https://www.linkedin.com/in/artunselcuk/"
                 bgColor={isHovered.linkedin ? "#037fb1" : "#121212"}
                 fgColor="white"
                 className='social-icon linkedin'
