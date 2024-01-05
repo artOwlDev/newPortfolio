@@ -59,9 +59,9 @@ const Banner = () => {
 
         <div className="links-for-mobile">
             <span onClick={() => scrollTo("about")}> <FiUser className='icon' style={{margin: "0 2px"}}/> About</span>
-            <span onClick={() => scrollTo("projects")}> <ImBook className='icon' style={{margin: "0 2px"}}/> Experience</span>
-            <span onClick={() => scrollTo("technologies")}> <SiElectron className='icon' style={{margin: "0 2px"}}/> Projects</span>
-            <span onClick={() => scrollTo("contact")}> <AiOutlineMail className='icon' style={{margin: "0 2px"}}/> Tech-stack</span>
+            <span onClick={() => scrollTo("experience")}> <ImBook className='icon' style={{margin: "0 2px"}}/> Experience</span>
+            <span onClick={() => scrollTo("projects")}> <SiElectron className='icon' style={{margin: "0 2px"}}/> Projects</span>
+            <span onClick={() => scrollTo("technologies")}> <AiOutlineMail className='icon' style={{margin: "0 2px"}}/> Tech-stack</span>
         </div>
         
 
