@@ -44,7 +44,7 @@ const Sidebar = () => {
               onMouseLeave={() => handleMouseLeave('github')}
             />
 
-            <SocialIcon url="https://drive.google.com/file/d/1-Kg3FtUAsR8WvvKZWtZXfuH3S_ogYrF3/view" 
+            <SocialIcon url="https://drive.google.com/file/d/1XlWu_hfPczvkmibA1zen50e_pOLvAmsf/view?usp=drive_link" 
               fgColor="white" 
               bgColor={isHovered.resume ? "#dc4b39" : "#121212"}
               className='social-icon resume'
