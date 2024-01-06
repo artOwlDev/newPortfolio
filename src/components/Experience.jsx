@@ -39,7 +39,7 @@ const Experience = () => {
                     <p>Mar '23 - Present</p>
                 </div>
                 <div className="experience-box-right-details">
-                    <p>Conduct weekly tutorials for over 50+ students in the course Data Structures and Algorithms(CSCI2110)</p>
+                    <p>Social platform that lets users share their thoughts and rate their favorite Movies and TV-series.</p>
                 </div>
             </div>
         </div>
