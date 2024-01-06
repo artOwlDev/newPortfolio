@@ -1,16 +1,27 @@
 
 
-import React from 'react'
+import React, { useEffect } from 'react'
 import {DiJava, DiReact, DiPython, DiJavascript1} from "react-icons/di"
 import {SiTypescript, SiCss3, SiCsharp} from "react-icons/si"
 import {TbSql} from "react-icons/tb"
 import {FaVuejs} from "react-icons/fa"
 import {AiFillHtml5} from "react-icons/ai"
 import {BsFillBootstrapFill} from "react-icons/bs"
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const Technologies = () => {
+
+  useEffect(() => {
+    Aos.init({
+        duration: 1000,
+        once: true,
+        easing: "ease"
+    })
+}, [])
+
   return (
-    <div id="technologies" className="technologies-header">
+    <div id="technologies" className="technologies-header" data-aos="fade-up">
       <h1>Tech Stack</h1>
       <div className='technologies'>
           <div className="tech-box">

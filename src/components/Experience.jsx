@@ -1,15 +1,28 @@
 
 
-import React from 'react'
+import React, { useEffect } from 'react'
 import whisper from "../img/whispr.jpg"
 import dalhousie from "../img/dalhousie.jpg"
 import whispr from "../img/whisprLogo.jpg"
 import freelance from "../img/freelance.jpg"
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 
 const Experience = () => {
+
+    useEffect(() => {
+        Aos.init({
+            duration: 1500,
+            once: true,
+            easing: "ease"
+        })
+    }, [])
+
+
   return (
-    <div className='experience' id='experience'>
+    <div className='experience' id='experience' data-aos="fade-up">
+            
         <div className='header-div'>
             <h1>Experience</h1>
         </div>

@@ -53,12 +53,10 @@ function App() {
               <Banner/>
               <Sidebar/>
               <About/>
-              <div data-aos="fade-in">
-                <Experience/>
-                <Projects/>
-                <Technologies/>
+              <Experience/>
+              <Projects/>
+              <Technologies/>
 
-              </div>
 
               <Contact/>
               <Footer/>

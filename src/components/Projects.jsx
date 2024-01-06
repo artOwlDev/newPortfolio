@@ -1,6 +1,6 @@
 
 
-import React from 'react'
+import React, { useEffect } from 'react'
 import foodie from '../img/foodie.jpeg'
 import pixelton from "../img/pixelton.jpeg"
 import whisper from "../img/whispr.jpg"
@@ -8,12 +8,24 @@ import staysafe from "../img/staysafe.jpeg"
 import coffeeology from "../img/coffeeology.jpg"
 import {FiGithub} from "react-icons/fi"
 import {HiOutlineExternalLink} from "react-icons/hi"
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+
 
 const Projects = () => {
+    useEffect(() => {
+        Aos.init({
+            duration: 800,
+            once: true,
+            easing: "ease"
+        })
+    }, [])
+
+
   return (
-    <div  id="projects" className='projects'>
+    <div  id="projects" className='projects' data-aos="fade-up">
         <h1 className='projects-h1'>Projects</h1>
-        <div className="projects-box">
+        <div className="projects-box" data-aos="fade-left">
             <div className="projects-image">
                 <img src={coffeeology} alt="" />
             </div>
@@ -35,7 +47,7 @@ const Projects = () => {
                 </div>
             </div>
         </div>
-        <div className="projects-box">
+        <div className="projects-box" data-aos="fade-right">
             <div className="projects-image">
                 <img src={whisper} alt="" />
             </div>
@@ -59,7 +71,7 @@ const Projects = () => {
                 </div>
             </div>
         </div>
-        <div className="projects-box">
+        <div className="projects-box" data-aos="fade-left">
             <div className="projects-image">
                 <img src={staysafe} alt="" />
             </div>
@@ -85,7 +97,7 @@ const Projects = () => {
 
         </div>
         
-        <div className="projects-box">
+        <div className="projects-box" data-aos="fade-right">
             <div className="projects-image">
                 <img src={pixelton} alt="" />
             </div>
@@ -106,7 +118,7 @@ const Projects = () => {
                 
             </div>
         </div>
-        <div className="projects-box">
+        <div className="projects-box" data-aos="fade-left">
             <div className="projects-image">
                 <img src={foodie} alt="" />
             </div>
