@@ -21,7 +21,7 @@ const Experience = () => {
 
 
   return (
-    <div className='experience' id='experience'>
+    <div className='experience' id='experience' data-aos="fade-in">
             
         <div className='header-div'>
             <h1>Experience</h1>
