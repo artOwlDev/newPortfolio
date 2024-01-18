@@ -27,7 +27,8 @@ const Sidebar = () => {
 
         <div className="sidebar">
 
-            <SocialIcon 
+            <SocialIcon
+                target='_blank' 
                 url="https://www.linkedin.com/in/artunselcuk/"
                 bgColor={isHovered.linkedin ? "#037fb1" : "#121212"}
                 fgColor="white"
@@ -36,6 +37,7 @@ const Sidebar = () => {
                 onMouseLeave={() => handleMouseLeave('linkedin')}
             />            
             <SocialIcon 
+              target='_blank' 
               url="https://github.com/artOwlDev" 
               fgColor="white" 
               bgColor={isHovered.github ? "#24292d" : "#121212"}
@@ -44,7 +46,9 @@ const Sidebar = () => {
               onMouseLeave={() => handleMouseLeave('github')}
             />
 
-            <SocialIcon url="https://drive.google.com/file/d/1XlWu_hfPczvkmibA1zen50e_pOLvAmsf/view?usp=drive_link" 
+            <SocialIcon 
+              target='_blank' 
+              url="https://drive.google.com/file/d/1XlWu_hfPczvkmibA1zen50e_pOLvAmsf/view?usp=drive_link" 
               fgColor="white" 
               bgColor={isHovered.resume ? "#dc4b39" : "#121212"}
               className='social-icon resume'
@@ -52,6 +56,7 @@ const Sidebar = () => {
               onMouseLeave={() => handleMouseLeave('resume')}
             />
             <SocialIcon 
+              target='_blank' 
               url="https://www.instagram.com/artunipunii/" 
               fgColor="white" 
               bgColor={isHovered.instagram ? "#C13584" : "#121212"} 
