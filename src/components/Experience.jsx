@@ -5,6 +5,7 @@ import whisper from "../img/whispr.jpg"
 import dalhousie from "../img/dalhousie.jpg"
 import whispr from "../img/whisprLogo.jpg"
 import freelance from "../img/freelance.jpg"
+import vosyn from "../img/vosyn.jpg"
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
@@ -27,6 +28,20 @@ const Experience = () => {
             <h1>Experience</h1>
         </div>
 
+        <div className="experience-box">
+            <div className="experience-box-left">
+                <img src={vosyn}/>
+            </div>
+            <div className="experience-box-right">
+                <div className="experience-box-right-header">
+                    <h1>Software Engineer Intern @ Vosyn</h1>
+                    <p>Jan '24 - present</p>
+                </div>
+                <div className="experience-box-right-details">
+                    <p>- Working on the frontend platform.</p>
+                </div>
+            </div>
+        </div>
         <div className="experience-box">
             <div className="experience-box-left">
                 <img src={dalhousie}/>
