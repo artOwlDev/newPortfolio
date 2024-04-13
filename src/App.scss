@@ -421,7 +421,8 @@ body{
 }
 
 .footer{
-    background-color: rgba(23, 70, 109, 0.469);;
+    background-color: #121212;
+    border-top: 0.5px solid whitesmoke;
     font-family: 'Montserrat', sans-serif;
     color: white;
     height: 5vh;
@@ -455,9 +456,9 @@ body{
 
 .technologies{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(16vh, 1fr));
-    width: 800px;
-    margin: 0 auto;
+    grid-template-columns: repeat(auto-fit, minmax(15vh, 1fr));
+    width: 1000px;
+    margin: auto;
     justify-content: center;
     align-items: center;
     text-align: center;

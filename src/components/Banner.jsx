@@ -14,7 +14,7 @@ import image9 from "../img/background9.avif"
 
 const imagesArray = [image, image2,image2,image2, image3, image4, image5, image7, image8, image9];
 
-import portrait from "../img/portrait2.jpeg"
+import portrait from "../img/artun.jpg"
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import {FiUser} from "react-icons/fi"

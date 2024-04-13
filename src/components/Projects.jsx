@@ -39,7 +39,7 @@ const Projects = () => {
                 <div className="project-technologies">
                     <span>React.js</span>
                 </div>
-                <p>Personalized website for one of the busiest cafes in Halifax, NS. Coffeeology Espresso.</p>
+                <p>Personalized website for one of the busiest cafes in Halifax, NS. Coffeeology Espresso Co.</p>
                 <div className="project-links">
                     <a href="https://github.com/artOwlDev/coffeeology" target="_blank"><FiGithub className='project-icons'/></a>
                     <a href="https://coffeeologyespresso.co" target="_blank"><HiOutlineExternalLink className='project-icons'/></a>
@@ -54,7 +54,7 @@ const Projects = () => {
             <div className="projects-info">
                 <div className="project-name">
                     <h1>Whispr - </h1>
-                    <p>Mar '23 - present</p>
+                    <p>Mar '23 - Jun '23</p>
                 </div>
                 
                 

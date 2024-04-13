@@ -5,7 +5,9 @@ import whisper from "../img/whispr.jpg"
 import dalhousie from "../img/dalhousie.jpg"
 import whispr from "../img/whisprLogo.jpg"
 import freelance from "../img/freelance.jpg"
+import handshake from "../img/handshake.jpg"
 import vosyn from "../img/vosyn.jpg"
+import marsh from "../img/marsh.jpg"
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
@@ -30,12 +32,26 @@ const Experience = () => {
 
         <div className="experience-box">
             <div className="experience-box-left">
+                <img src={marsh}/>
+            </div>
+            <div className="experience-box-right">
+                <div className="experience-box-right-header">
+                    <h1>Software Developer Intern @ Marsh</h1>
+                    <p>May '24 - present</p>
+                </div>
+                <div className="experience-box-right-details">
+                    <p>- Full-Stack Development.</p>
+                </div>
+            </div>
+        </div>
+        <div className="experience-box">
+            <div className="experience-box-left">
                 <img src={vosyn}/>
             </div>
             <div className="experience-box-right">
                 <div className="experience-box-right-header">
                     <h1>Software Engineer Intern @ Vosyn</h1>
-                    <p>Jan '24 - present</p>
+                    <p>Jan '24 - April '24</p>
                 </div>
                 <div className="experience-box-right-details">
                     <p>- Working on the frontend platform.</p>
@@ -64,24 +80,25 @@ const Experience = () => {
             <div className="experience-box-right">
                 <div className="experience-box-right-header">
                     <h1>Founder / Developer @ Whispr</h1>
-                    <p>Mar '23 - Present</p>
+                    <p>Mar '23 - Jun '23</p>
                 </div>
                 <div className="experience-box-right-details">
-                    <p>Social platform that lets users share their thoughts and rate their favorite Movies and TV-series.</p>
+                    <p>- Social platform that lets users share their thoughts and rate their favorite movies and TV-series.</p>
                 </div>
             </div>
         </div>
         <div className="experience-box">
             <div className="experience-box-left">
-                <img src={freelance}/>
+                <img src={handshake}/>
             </div>
             <div className="experience-box-right">
                 <div className="experience-box-right-header">
-                    <h1>Freelance Developer</h1>
-                    <p>Sept '22 - Present</p>
+                    <h1>Freelance Software Developer</h1>
+                    <p>Sept '22 - Sept '23</p>
                 </div>
                 <div className="experience-box-right-details">
-                    <p>Developing websites for local businesses, creating user-friendly online platforms that effectively represent each business's unique brand and services.</p>
+                    <p>- Spearheaded website enhancement for local businesses, enhancing online presence and customer engagement.</p>
+                    <p>- Orchestrated collaborative partnerships with clients, delivering web solutions that showcased the unique brand.</p>
                 </div>
             </div>
         </div>
