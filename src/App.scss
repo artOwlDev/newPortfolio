@@ -1,8 +1,15 @@
 body{
     background-color: #121212;
     font-family: "Poppins";
+    box-sizing: border-box;
+    width: 100vw;
     overflow-x: hidden;
 
+}
+
+canvas{
+    margin : 0;
+    display:block;
 }
 
 
@@ -623,8 +630,12 @@ body{
 @media screen and (max-width: 1000px){
 
     
+
+    
     
     .experience{
+        width: 90vw;
+        margin: 0 auto;
         
 
         .experience-box{
@@ -633,9 +644,11 @@ body{
             justify-content: center;
             align-items: center;
             margin: 0 auto;
-            width: 400px;
+            width: 300px;
             height: auto;
             box-shadow: none;
+
+            
 
             .experience-box-left{
                 img{
@@ -647,7 +660,23 @@ body{
             .experience-box-right{
 
                 .experience-box-right-details{
-                    margin: 0 0.4rem;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    overflow-wrap: break-word;
+
+
+                    
+
+                    p{
+                        width: 80vw;
+                        display: flex;
+                        justify-content: center;
+                        margin: 0 auto;
+                        font-size: 0.6rem;
+                    }
+
                 }
 
                 .experience-box-right-header{
